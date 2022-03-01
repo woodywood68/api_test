@@ -1,0 +1,9 @@
+API:
+/clear [PUT] clears the database of entries.
+
+/sequences [GET] list of the current entries.
+
+/sequence/<sequence> [POST] adds the sequence if not in database. False if not duplicating. True if duplicating.
+
+INTERFACE:
+There is an interface available in the root directory for accessing the API features.
