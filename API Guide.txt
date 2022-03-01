@@ -6,4 +6,9 @@ API:
 /sequence/<sequence> [POST] adds the sequence if not in database. False if not duplicating. True if duplicating.
 
 INTERFACE:
-There is an interface available in the root directory for accessing the API features.
+There is an interface available in the '\' root directory for accessing the API features.
+
+DOCKER: Use the following command to execute the image: 
+docker run -p 5000:5000 -d woody568/api_test_123
+
+Alternatively you can run flask, using 'flask run'.
